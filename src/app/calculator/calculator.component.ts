@@ -73,4 +73,8 @@ export class CalculatorComponent implements OnInit {
     this.operator = null;
     this.waitForSecondNumber = false;
   }
+  public delete(){
+    this.currentNumber = '0';
+    this.waitForSecondNumber = false;
+  }
 }

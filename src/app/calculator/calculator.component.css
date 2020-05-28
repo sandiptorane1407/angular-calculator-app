@@ -22,7 +22,7 @@
   
   button {
     height: 60px;
-    background-color: #fff;
+    background-color: #ffff;
     border-radius: 3px;
     border: 1px solid #c4c4c4;
     background-color: transparent;
@@ -34,7 +34,7 @@
   }
   
   button:hover {
-    background-color: #eaeaea;
+    background-color: #f0eef5;
   }
   
   .operator {
@@ -50,13 +50,22 @@
   .all-clear:hover {
     background-color: #f17377;
   }
+  .delete{
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+  }
   
+  .delete:hover {
+    background-color: #f17377;
+  }
+
   .equal-sign {
     background-color: #2e86c0;
     border-color: #337cac;
     color: #fff;
     height: 100%;
-    grid-area: 2 / 4 / 6 / 5;
+    grid-area: 3 / 4 / 6 / 5;
   }
   
   .equal-sign:hover {
@@ -69,3 +78,5 @@
     grid-gap: 20px;
     padding: 20px;
   }
+
+  
